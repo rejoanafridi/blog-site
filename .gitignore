@@ -1,0 +1,10 @@
+.idea
+.vscode
+venv
+staticfiles
+__pycache__
+media
+env.py
+mydatabase
+.env
+.env.*
