@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
-from pathlib import Path
 from decouple import config
 
 
@@ -41,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'main',
+    'main.apps.MainConfig',
 ]
 
 CKEDITOR_UPLOAD_PATH = "uploads/"
